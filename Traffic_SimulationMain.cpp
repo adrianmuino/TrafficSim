@@ -120,8 +120,6 @@ Simulation::Simulation(wxWindow* parent,wxWindowID id)
 	BoxSizer1 = new wxBoxSizer(wxHORIZONTAL);
 	BoxSizer1->Add(startPanel, 1, wxALL|wxEXPAND, 0);
 	SetSizer(BoxSizer1);
-	BoxSizer1->Fit(this);
-    BoxSizer1->SetSizeHints(this);
 
     screenState = state::startScreen;
 

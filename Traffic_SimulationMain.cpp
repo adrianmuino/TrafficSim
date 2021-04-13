@@ -159,8 +159,6 @@ Simulation::Simulation(wxWindow* parent,wxWindowID id)
     BoxSizer2->Add(SettingPanel2, 1, wxALL|wxEXPAND, 0);
     settingsPanel->SetSizer(BoxSizer2);
 	settingsPanel->Hide();
-    BoxSizer2->Fit(this);
-    BoxSizer2->SetSizeHints(this);
 
     //connect settings event handlers
 
